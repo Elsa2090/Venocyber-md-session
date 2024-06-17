@@ -19,7 +19,7 @@ function removeFile(FilePath){
 router.get('/', async (req, res) => {
     const id = makeid();
     let num = req.query.number;
-        async function VENOCYBER_MD_PAIR_CODE() {
+        async function ITACHI_MD_PAIR_CODE() {
         const {
             state,
             saveCreds
@@ -34,16 +34,16 @@ router.get('/', async (req, res) => {
                 logger: pino({level: "fatal"}).child({level: "fatal"}),
                 browser: ["Chrome (Linux)", "", ""]
              });
-             if(!Pair_Code_By_Venocyber_Tech.authState.creds.registered) {
+             if(!Pair_Code_By_ITACHI_Tech.authState.creds.registered) {
                 await delay(1500);
                         num = num.replace(/[^0-9]/g,'');
-                            const code = await Pair_Code_By_Venocyber_Tech.requestPairingCode(num)
+                            const code = await Pair_Code_By_Itachi_Tech.requestPairingCode(num)
                  if(!res.headersSent){
                  await res.send({code});
                      }
                  }
-            Pair_Code_By_Venocyber_Tech.ev.on('creds.update', saveCreds)
-            Pair_Code_By_Venocyber_Tech.ev.on("connection.update", async (s) => {
+            Pair_Code_By_Bryant_Tech.ev.on('creds.update', saveCreds)
+            Pair_Code_By_Bryant_Tech.ev.on("connection.update", async (s) => {
                 const {
                     connection,
                     lastDisconnect
@@ -55,22 +55,22 @@ router.get('/', async (req, res) => {
                let b64data = Buffer.from(data).toString('base64');
                let session = await Pair_Code_By_Venocyber_Tech.sendMessage(Pair_Code_By_Venocyber_Tech.user.id, { text: '' + b64data });
 
-               let VENOCYBER_MD_TEXT = `
-*_Pair Code Connected by Venocyber Tech_*
-*_Made With 🤍_*
+               let ITACHI_MD_TEXT = `
+*_Pair Code Connected by Bryant Tech_*
+*_Made With ❣️_*
 ______________________________________
 ╔════◇
-║ *『 WOW YOU CHOOSEN VENOCYBER-MD 』*
+║ *『 WOW YOU CHOOSEN MADARA-MD 』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚══════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _youtube.com/@JASTINMTEWA-vn9pl_
-║❒ *Owner:* _https://wa.me/message/A4QG2JZKBXFTN1_
-║❒ *Repo:* _https://github.com/Kingjux/venocyber-md_
-║❒ *WaGroup:* _https://chat.whatsapp.com/HSln3blDuuuKvC8njxyCCN_
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l_
-║❒ *Plugins:* _https://github.com/Kingjux/venocyber-md-plugins_
+║❒ *Ytube:* _youtube.com/@BryantXtech_
+║❒ *Owner:* _https://wa.me/233530729233
+║❒ *Repo:* _https://github.com/Elsa2090/Itachi_md_
+║❒ *WaGroup:* _https://chat.whatsapp.com/DOko0OMbzD3DPZmIADnT95_
+║❒ *WaChannel:* _https://whatsapp.com/channel/0029VacpEdXIt5rqKLB9nC1L_
+║❒ *Developer* _BRYANT TECH_
 ╚══════════════════════╝ 
 _____________________________________
 
