@@ -67,7 +67,7 @@ ______________________________________
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
 ║❒ *Ytube:* _youtube.com/@BryantXtech_
 ║❒ *Owner:* _https://wa.me/233530729233
-║❒ *Repo:* _https://github.com/Elsa2090/Itachi_md_
+║❒ *Repo:* _https://github.com/Elsa2090/Madara-md
 ║❒ *WaGroup:* _https://chat.whatsapp.com/DOko0OMbzD3DPZmIADnT95_
 ║❒ *WaChannel:* _https://whatsapp.com/channel/0029VacpEdXIt5rqKLB9nC1L_
 ║❒ *Developer* _BRYANT TECH_
