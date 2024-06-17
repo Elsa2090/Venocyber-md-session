@@ -66,7 +66,7 @@ ______________________________________
 *_Made With ❣️_*
 ______________________________________
 ╔════◇
-║ *『 WOW YOU CHOOSEN ITACHI-MD 』*
+║ *『 WOW YOU CHOOSEN MADARA-MD 』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚══════════════════════╝
 ╔═════◇
@@ -74,8 +74,8 @@ ______________________________________
 ║❒ *Ytube:* _youtube.com/@BryantXtech_
 ║❒ *Owner:* _https://wa.me/233530729233
 ║❒ *Repo:* _https://github.com/Elsa2090/Itachi_md_
-║❒ *WaGroup:* _https://chat.whatsapp.com/HSln3blDuuuKvC8njxyCCN_
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l_
+║❒ *WaGroup:* _https://chat.whatsapp.com/DOko0OMbzD3DPZmIADnT95_
+║❒ *WaChannel:* _https://whatsapp.com/channel/0029VacpEdXIt5rqKLB9nC1L_
 ║❒ *Developer* _BRYANT TECH_
 ╚══════════════════════╝ 
 _____________________________________
