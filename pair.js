@@ -19,7 +19,7 @@ function removeFile(FilePath){
 router.get('/', async (req, res) => {
     const id = makeid();
     let num = req.query.number;
-        async function ITACHI_MD_PAIR_CODE() {
+        async function BRYANT_MD_PAIR_CODE() {
         const {
             state,
             saveCreds
@@ -37,7 +37,7 @@ router.get('/', async (req, res) => {
              if(!Pair_Code_By_ITACHI_Tech.authState.creds.registered) {
                 await delay(1500);
                         num = num.replace(/[^0-9]/g,'');
-                            const code = await Pair_Code_By_Itachi_Tech.requestPairingCode(num)
+                            const code = await Pair_Code_By_Bryant_Tech.requestPairingCode(num)
                  if(!res.headersSent){
                  await res.send({code});
                      }
@@ -53,21 +53,21 @@ router.get('/', async (req, res) => {
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                 await delay(800);
                let b64data = Buffer.from(data).toString('base64');
-               let session = await Pair_Code_By_Venocyber_Tech.sendMessage(Pair_Code_By_Venocyber_Tech.user.id, { text: '' + b64data });
+               let session = await Pair_Code_By_Bryant_Tech.sendMessage(Pair_Code_By_Bryant_Tech.user.id, { text: '' + b64data });
 
-               let ITACHI_MD_TEXT = `
+               let BRYANT_MD_TEXT = `
 *_Pair Code Connected by Bryant Tech_*
 *_Made With ❣️_*
 ______________________________________
 ╔════◇
-║ *『 WOW YOU CHOOSEN MADARA-MD 』*
+║ *『 WOW YOU CHOOSEN BRYANT-MD 』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚══════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
 ║❒ *Ytube:* _youtube.com/@BryantXtech_
 ║❒ *Owner:* _https://wa.me/233530729233
-║❒ *Repo:* _https://github.com/Elsa2090/Madara-md
+║❒ *Repo:* _https://github.com/Elsa2090/Bryant-md
 ║❒ *WaGroup:* _https://chat.whatsapp.com/DOko0OMbzD3DPZmIADnT95_
 ║❒ *WaChannel:* _https://whatsapp.com/channel/0029VacpEdXIt5rqKLB9nC1L_
 ║❒ *Developer* _BRYANT TECH_
@@ -75,15 +75,15 @@ ______________________________________
 _____________________________________
 
 _Don't Forget To Give Star To My Repo_`
- await Pair_Code_By_Venocyber_Tech.sendMessage(Pair_Code_By_Venocyber_Tech.user.id,{text:VENOCYBER_MD_TEXT},{quoted:session})
+ await Pair_Code_By_Bryant_Tech.sendMessage(Pair_Code_By_Bryant_Tech.user.id,{text:VENOCYBER_MD_TEXT},{quoted:session})
  
 
         await delay(100);
-        await Pair_Code_By_Venocyber_Tech.ws.close();
+        await Pair_Code_By_Bryant_Tech.ws.close();
         return await removeFile('./temp/'+id);
             } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
                     await delay(10000);
-                    VENOCYBER_MD_PAIR_CODE();
+                    BRYANT_MD_PAIR_CODE();
                 }
             });
         } catch (err) {
@@ -94,6 +94,6 @@ _Don't Forget To Give Star To My Repo_`
          }
         }
     }
-    return await VENOCYBER_MD_PAIR_CODE()
+    return await BRYANT_MD_PAIR_CODE()
 });
 module.exports = router
