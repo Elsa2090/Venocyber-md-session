@@ -28,7 +28,7 @@ const {
 } = require("node:fs/promises")
 router.get('/', async (req, res) => {
 	const id = makeid();
-	async function VENOCYBER_MD_QR_CODE() {
+	async function BRYANT_MD_QR_CODE() {
 		const {
 			state,
 			saveCreds
@@ -43,8 +43,8 @@ router.get('/', async (req, res) => {
 				browser: Browsers.macOS("Desktop"),
 			});
 
-			Qr_Code_By_Venocyber_Tech.ev.on('creds.update', saveCreds)
-			Qr_Code_By_Venocyber_Techr.ev.on("connection.update", async (s) => {
+			Qr_Code_By_Bryant_Tech.ev.on('creds.update', saveCreds)
+			Qr_Code_By_Bryant_Tech.ev.on("connection.update", async (s) => {
 				const {
 					connection,
 					lastDisconnect,
@@ -66,14 +66,14 @@ ______________________________________
 *_Made With ❣️_*
 ______________________________________
 ╔════◇
-║ *『 WOW YOU CHOOSEN MADARA-MD 』*
+║ *『 WOW YOU CHOOSEN BRYANT-MD 』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚══════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
 ║❒ *Ytube:* _youtube.com/@BryantXtech_
 ║❒ *Owner:* _https://wa.me/233530729233
-║❒ *Repo:* _https://github.com/Elsa2090/Madara-md_
+║❒ *Repo:* _https://github.com/Elsa2090/Bryant-md_
 ║❒ *WaGroup:* _https://chat.whatsapp.com/DOko0OMbzD3DPZmIADnT95_
 ║❒ *WaChannel:* _https://whatsapp.com/channel/0029VacpEdXIt5rqKLB9nC1L_
 ║❒ *Developer* _BRYANT TECH_
